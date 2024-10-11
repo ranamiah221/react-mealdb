@@ -7,10 +7,10 @@ const Home = () => {
     return (
        <>
         <div className="flex mb-5">
-            <div className="w-1/6 h-full">
+            <div className="w-1/6">
             <Sidebar></Sidebar>
             </div>
-            <div className="w-5/6 mt-2">
+            <div className="w-5/6 mt-2 pl-2">
                 <Outlet></Outlet>
             </div>
         </div>
