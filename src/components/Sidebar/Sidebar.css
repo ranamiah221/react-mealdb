@@ -1,0 +1,5 @@
+nav ul li a.active{
+    color: red;
+    background-color: aqua;
+    border-radius: 5px;
+}
