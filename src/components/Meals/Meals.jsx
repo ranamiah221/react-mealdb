@@ -5,7 +5,6 @@ import Meal from "../Meal/Meal";
 const Meals = () => {
     const meals= useLoaderData();
     const allMeals=meals.meals;
-    console.log(allMeals);
     return (
         <div>
             <h1>This is meals....on the way :{allMeals.length}</h1>

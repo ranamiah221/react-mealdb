@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import'./Sidebar.css'
 const Sidebar = () => {
     return (
-        <nav className='bg-amber-400 rounded-lg mt-2'>
+        <nav className='bg-amber-400 rounded-lg mt-2 h-full'>
                  <ul>
                     <li className="text-xl font-medium px-4 pt-4 mb-2" >
                          <NavLink className="px-2 py-1" to='/'>Home</NavLink>
