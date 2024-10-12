@@ -1,11 +1,8 @@
 import { useLoaderData, useNavigate } from "react-router-dom";
-
-
 const MealDetails = () => {
     const meal=useLoaderData();
     const mealDetails=meal.meals;
     const {strMeal, strMealThumb, idMeal,strCategory,strInstructions}=mealDetails[0];
-    console.log(mealDetails);
     const navigate=useNavigate();
     const handleGoBack=()=>{
         navigate(-1);
